@@ -3,6 +3,7 @@ from flask import Flask, escape, request, render_template,url_for
 import pickle
 import numpy as np
 import os
+import pandas as pd
 
 app = Flask(__name__)
 model = pickle.load(open('model.pickle', 'rb'))
