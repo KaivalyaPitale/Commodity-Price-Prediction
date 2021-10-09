@@ -1,5 +1,5 @@
 ﻿click==7.1.2
-fbprophet==0.7.1
+fbprophet==0.7.0
 Flask==1.1.2
 gunicorn==20.1.0
 itsdangerous==1.1.0
@@ -8,7 +8,6 @@ joblib==1.0.1
 MarkupSafe==1.1.1
 numpy==1.20.2
 pandas==1.2.4
-PyStan==3.3.0
 python-dateutil==2.8.1
 pytz==2021.1
 scikit-learn==0.24.2
