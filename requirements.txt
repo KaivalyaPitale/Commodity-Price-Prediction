@@ -262,7 +262,6 @@ requests-oauthlib==1.3.0
 resampy==0.2.2
 retrying==1.3.3
 rsa==4.7.2
-screen-resolution-extra==0.0.0
 scs==2.1.4
 seaborn==0.11.2
 semver==2.13.0
