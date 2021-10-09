@@ -4,6 +4,12 @@ import pickle
 import numpy as np
 import os
 import pandas as pd
+from matplotlib import pyplot as plt
+from matplotlib.dates import MonthLocator, num2date
+from matplotlib.ticker import FuncFormatter
+from fbprophet import Prophet
+from datetime import datetime
+
 
 app = Flask(__name__)
 model = pickle.load(open('model.pickle', 'rb'))
