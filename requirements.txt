@@ -275,7 +275,6 @@ sklearn-pandas==1.8.0
 smart-open==5.2.1
 snowballstemmer==2.1.0
 sortedcontainers==2.4.0
-spacy==2.2.4
 Sphinx==1.8.5
 sphinxcontrib-serializinghtml==1.1.5
 sphinxcontrib-websupport==1.2.4
@@ -284,7 +283,6 @@ sqlparse==0.4.2
 srsly==1.0.5
 statsmodels==0.10.2
 sympy==1.7.1
-tables==3.4.4
 tabulate==0.8.9
 tblib==1.7.0
 tensorboard==2.6.0
