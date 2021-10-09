@@ -1,5 +1,4 @@
 ﻿click==7.1.2
-fbprophet==0.7.0
 Flask==1.1.2
 gunicorn==20.1.0
 itsdangerous==1.1.0
@@ -16,3 +15,6 @@ six==1.15.0
 sklearn==0.0
 threadpoolctl==2.1.0
 Werkzeug==1.0.1
+pystan==3.3.0
+Cython==0.29.24
+fbprophet==0.7.1
