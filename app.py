@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 model = pickle.load(open('model.pickle', 'rb'))
-
+port=int(os.environ.get('PORT',5000))
 
 @app.route('/')
 def home():
