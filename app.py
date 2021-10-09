@@ -18,9 +18,7 @@ def predict():
     if request.method == 'POST':
         date = request.form['date']
 
-        prediction = model.predict([[
-            date
-        ]])
+        prediction = model.predict(pd.DataFrame(date, columns = ['ds']))['yhat'][0]
 
         return render_template("prediction.html", prediction_text="Predicted stock price {}".format(prediction))
 
